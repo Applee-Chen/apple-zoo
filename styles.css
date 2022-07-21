@@ -1,0 +1,234 @@
+#Title{
+    font-size: 60px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+
+.para{
+    text-align: center;
+    font-family: 'Dancing Script', serif;
+    font-size: 40px;
+}
+
+blockquote {
+    margin: 5em 10em;
+}
+
+.quote{
+    padding: 2em;
+    background: #FFFFFF;
+    border-radius: 40px;
+    font-family: 'Dancing Script', serif;
+    font-size: 30px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    overflow-wrap: break-word;
+}
+.images div {
+    margin: auto;
+}
+
+
+.images p, .images a{
+    font-family: 'Neucha', serif;
+    font-size: 20px;
+    background: #FFFAFA;
+
+}
+
+.links{
+    font-family: 'Caveat', serif;
+    font-size: 25px;
+    display: block;
+}
+
+.Cats {
+    color: #B19CD9;
+}
+
+.Giraffes{
+    color: #E9967A;
+}
+
+.Pigs{
+    color: #FFB6CE;
+}
+
+.Sheep{
+    color: #87CEFA;
+}
+
+.Giraffes:hover{
+    color: #D2691E;
+}
+
+.Cats:hover {
+    color: #663399;
+}
+
+.Pigs:hover{
+    color: #D87093;
+}
+
+#home-icon{
+    fill: #B19CD9;
+    height: 2em;
+}
+
+#home_icon{
+    fill: #E9967A;
+    height: 2em;
+}
+
+#Homeicon{
+    fill: #FFB6CE;
+    height: 2em;
+}
+
+#HomeIcon{
+    fill: #87CEFA;
+    height: 2em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Caveat', serif;
+    border-bottom-style: dashed;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#cats{
+    color: #B19CD9;
+    background-color: #E6E6FA;
+}
+
+#giraffes{
+    color: #E9967A;
+    background-color: #FFF8DC;
+}
+
+#pigs{
+    background-color: #FFF0F5;
+    color: #FFB6CE;
+}
+
+#sheep{
+    background-color: #F0F8FF;
+    color: #87CEFA;
+}
+
+#homeLink {
+    display: block;
+    position: absolute;
+    left: 5px;
+    margin: 20px;
+}
+
+.decorations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#icon{
+    position: absolute;
+    left: 20px;
+}
+
+body{
+    resize: both;
+    background-size: cover;
+}
+
+#CATS{
+    background-image: url('https://images.unsplash.com/photo-1588025632102-aa7acd130f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+}
+
+#GIRAFFES{
+    background: linear-gradient(0deg, #FF8C00, #FFDAB9, #FFE485, #FFE8CD, #FFF8DC, #FFF8DC);
+}
+
+#PIGS{
+    background: linear-gradient(0deg, #FFB6C1, #FFC0CB, #FFE4E1, #FFF0F5);
+}
+
+#SHEEP{
+    background: linear-gradient(0deg, #87CEFA, #ADD8E6, #F0F8FF);
+}
+
+.text-description {
+    padding: 2em;
+    background: #FFFAFA;
+    width: 400px;
+}
+
+#hometitle{
+    font-family: "Indie Flower", serif;
+    font-size: 60px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    color: #F08080;
+
+}
+
+#homepagetitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background: #FFF4F3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#menu{
+    text-align: center;
+    margin: 30px;
+}
+
+#menu-text{
+    font-family: "Indie Flower", serif;
+    font-size: 80px !important;
+    font-weight: bold;
+    color: #F08080;
+}
+
+
+#menu > p {
+    font-family: "Indie Flower", serif;
+    font-size: 40px;
+    color: #F08080;
+}
+
+
+
+.apple:hover{
+    color: #CD5C5C;
+}
+
+.apple{
+    color: #F08080;
+}
+
+#hello{
+    font-family: "Indie Flower", serif;
+    font-size: 35px;
+}
+
+#zoo{
+    background-image: url('https://images.unsplash.com/photo-1533119408463-b0f487583ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80');
+}
